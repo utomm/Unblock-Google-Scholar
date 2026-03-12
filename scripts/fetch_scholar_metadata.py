@@ -14,9 +14,21 @@ def load_config(config_path: str) -> dict:
 
 
 def extract_total_citations(results: dict) -> int | None:
-    author = results.get("author", {}) if isinstance(results, dict) else {}
-    cited_by = author.get("cited_by", {}) if isinstance(author, dict) else {}
-    value = cited_by.get("value") if isinstance(cited_by, dict) else None
+    if not isinstance(results, dict):
+        return None
+    cited_by = results.get("cited_by")
+    if not isinstance(cited_by, dict):
+        return None
+    table = cited_by.get("table")
+    if not isinstance(table, list) or not table:
+        return None
+    first_row = table[0]
+    if not isinstance(first_row, dict):
+        return None
+    citations = first_row.get("citations")
+    if not isinstance(citations, dict):
+        return None
+    value = citations.get("all")
     return value if isinstance(value, int) else None
 
 
