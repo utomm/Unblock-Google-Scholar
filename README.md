@@ -27,18 +27,20 @@ python scripts/fetch_scholar_metadata.py
 ```
 
 ## use case (jsDelivr + shields.io)
-Example badge showing total citations for the Repo owner from the `metadata` branch:
+Example badge showing total citations for the Repo's owner from the `metadata` branch:
 
-![Google Scholar citations](https://img.shields.io/badge/dynamic/json?label=Scholar%20Citations&color=4285F4&query=%24.total_citations&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Futomm%2FUnblock-Google-Scholar%40metadata%2Fdata%2Ftotal_citations.json)
+Note: replace `utomm/Unblock-Google-Scholar-Action` with your own GitHub repo.
+
+![Google Scholar citations](https://img.shields.io/badge/dynamic/json?label=Scholar%20Citations&color=4285F4&query=%24.total_citations&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Futomm%2FUnblock-Google-Scholar-Action%40metadata%2Fdata%2Ftotal_citations.json)
 
 ```markdown
-![Google Scholar citations](https://img.shields.io/badge/dynamic/json?label=Scholar%20Citations&color=4285F4&query=%24.total_citations&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Futomm%2FUnblock-Google-Scholar%40metadata%2Fdata%2Ftotal_citations.json)
+![Google Scholar citations](https://img.shields.io/badge/dynamic/json?label=Scholar%20Citations&color=4285F4&query=%24.total_citations&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Futomm%2FUnblock-Google-Scholar-Action%40metadata%2Fdata%2Ftotal_citations.json)
 ```
 
 Direct JSON URL (jsDelivr):
 
 ```
-https://cdn.jsdelivr.net/gh/utomm/Unblock-Google-Scholar@metadata/data/total_citations.json
+https://cdn.jsdelivr.net/gh/utomm/Unblock-Google-Scholar-Action@metadata/data/total_citations.json
 ```
 
 ## Workflow
