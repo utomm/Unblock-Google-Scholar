@@ -1,23 +1,20 @@
 # Unblock-Google-Scholar
-Automate fetching Google Scholar author metadata with GitHub Actions and store the JSON output in a dedicated `metadata` branch.
+Fetch Google Scholar author metadata with GitHub Actions and publish JSON outputs on a `metadata` branch.
 
-## How it works
-- A scheduled GitHub Actions workflow runs a Python script that calls SerpApi's Google Scholar author endpoint.
-- The script writes `data/metadata.json` on each run.
-- The workflow force-pushes the updated JSON to the `metadata` branch.
+## Outputs
+- `data/metadata.json` - full SerpApi response with run metadata.
+- `data/total_citations.json` - only the total citations count.
 
-## Requirements
-- A SerpApi account and API key stored as a GitHub Actions secret named `SERPAPI_API_KEY`.
+## Configure
+Edit [config/scholar_config.json](config/scholar_config.json) to set:
+- `author_id`
+- `hl`
+- `sort`
 
-## Configuration
-The workflow currently uses:
-- Author id: `BlK2gEAAAAAJ`
-- Locale: `en`
-- Sorting: `pubdate`
+Store your SerpApi key as a GitHub Actions secret named `SERPAPI_API_KEY`:
+GitHub repo Settings -> Secrets and variables -> Actions -> New repository secret.
 
-To change the author id or output path, update the environment variables in the workflow file.
-
-## Local run
+## Run locally
 ```bash
 python -m venv .venv
 source .venv/bin/activate

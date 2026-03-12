@@ -33,16 +33,22 @@ jobs:
       - name: Fetch metadata
         env:
           SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
-          SCHOLAR_AUTHOR_ID: "BlK2gEAAAAAJ"
+          CONFIG_PATH: config/scholar_config.json
           OUTPUT_PATH: data/metadata.json
+          TOTAL_CITATIONS_PATH: data/total_citations.json
         run: python scripts/fetch_scholar_metadata.py
 
       - name: Commit and push metadata
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git checkout -B metadata
-          git add data/metadata.json
+          mkdir -p /tmp/scholar-metadata
+          cp -f data/*.json /tmp/scholar-metadata/
+          git checkout --orphan metadata
+          git rm -rf .
+          mkdir -p data
+          cp -f /tmp/scholar-metadata/*.json data/
+          git add data/*.json
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
