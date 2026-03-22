@@ -1,0 +1,250 @@
+{
+  "fetched_at": "2026-03-22T04:45:42.716368+00:00",
+  "params": {
+    "engine": "google_scholar_author",
+    "hl": "en",
+    "author_id": "BlK2gEAAAAAJ",
+    "sort": "pubdate",
+    "output": "json",
+    "source": "python"
+  },
+  "results": {
+    "search_metadata": {
+      "id": "69bf73f54707f1b9eb698846",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/jMvklu6fKph5xuM8S2kJRA/69bf73f54707f1b9eb698846.json",
+      "created_at": "2026-03-22 04:45:41 UTC",
+      "processed_at": "2026-03-22 04:45:41 UTC",
+      "google_scholar_author_url": "https://scholar.google.com/citations?user=BlK2gEAAAAAJ&hl=en&sortby=pubdate",
+      "raw_html_file": "https://serpapi.com/searches/jMvklu6fKph5xuM8S2kJRA/69bf73f54707f1b9eb698846.html",
+      "total_time_taken": 1.5
+    },
+    "search_parameters": {
+      "engine": "google_scholar_author",
+      "author_id": "BlK2gEAAAAAJ",
+      "hl": "en",
+      "sort": "pubdate"
+    },
+    "author": {
+      "name": "Yutong Hu",
+      "affiliations": "KU Leuven & INSAIT",
+      "email": "Verified email at kuleuven.be",
+      "website": "https://youtoo.hu/",
+      "interests": [
+        {
+          "title": "Robotics",
+          "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:robotics",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Arobotics"
+        }
+      ],
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=BlK2gEAAAAAJ&citpid=10"
+    },
+    "articles": [
+      {
+        "title": "AR-VLA: True Autoregressive Action Expert for Vision-Language-Action Models",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=BlK2gEAAAAAJ&sortby=pubdate&citation_for_view=BlK2gEAAAAAJ:W7OEmFMy1HYC",
+        "citation_id": "BlK2gEAAAAAJ:W7OEmFMy1HYC",
+        "authors": "Y Hu, JN Zaech, N Nikolov, Y Yao, S Dey, G Albanese, R Detry, ...",
+        "publication": "arXiv preprint arXiv:2603.10126, 2026",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2026"
+      },
+      {
+        "title": "Mini Diffuser: Fast Multi-Task Diffusion Policy Training Using Two-Level Mini-Batches",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=BlK2gEAAAAAJ&sortby=pubdate&citation_for_view=BlK2gEAAAAAJ:zYLM7Y9cAGgC",
+        "citation_id": "BlK2gEAAAAAJ:zYLM7Y9cAGgC",
+        "authors": "Y Hu, P Song, K Wen, R Detry",
+        "publication": "IEEE Robotics and Automation Letters 11 (1), 938-945, 2025",
+        "cited_by": {
+          "value": 1,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13729204230050558185,9934090663799996451",
+          "serpapi_link": "https://serpapi.com/search.json?cites=13729204230050558185%2C9934090663799996451&engine=google_scholar&hl=en",
+          "cites_id": "13729204230050558185,9934090663799996451"
+        },
+        "year": "2025"
+      },
+      {
+        "title": "Tasc: Task-aware shared control for teleoperated manipulation",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=BlK2gEAAAAAJ&sortby=pubdate&citation_for_view=BlK2gEAAAAAJ:Y0pCki6q_DkC",
+        "citation_id": "BlK2gEAAAAAJ:Y0pCki6q_DkC",
+        "authors": "Z Fu, P Song, Y Hu, R Detry",
+        "publication": "arXiv preprint arXiv:2509.10416, 2025",
+        "cited_by": {
+          "value": 2,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14507542803244086291",
+          "serpapi_link": "https://serpapi.com/search.json?cites=14507542803244086291&engine=google_scholar&hl=en",
+          "cites_id": "14507542803244086291"
+        },
+        "year": "2025"
+      },
+      {
+        "title": "Equivariant Volumetric Grasping",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=BlK2gEAAAAAJ&sortby=pubdate&citation_for_view=BlK2gEAAAAAJ:Tyk-4Ss8FVUC",
+        "citation_id": "BlK2gEAAAAAJ:Tyk-4Ss8FVUC",
+        "authors": "P Song, Y Hu, P Li, R Detry",
+        "publication": "arXiv preprint arXiv:2507.18847, 2025",
+        "cited_by": {
+          "value": 1,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=578043368771416181",
+          "serpapi_link": "https://serpapi.com/search.json?cites=578043368771416181&engine=google_scholar&hl=en",
+          "cites_id": "578043368771416181"
+        },
+        "year": "2025"
+      },
+      {
+        "title": "M3PC: Test-time Model Predictive Control for Pretrained Masked Trajectory Model",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=BlK2gEAAAAAJ&sortby=pubdate&citation_for_view=BlK2gEAAAAAJ:qjMakFHDy7sC",
+        "citation_id": "BlK2gEAAAAAJ:qjMakFHDy7sC",
+        "authors": "K Wen*, Y Hu*, Y Mu, L Ke",
+        "publication": "The Thirteenth International Conference on Learning Representations (ICLR), 2025",
+        "cited_by": {
+          "value": 1,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9481041138362977378",
+          "serpapi_link": "https://serpapi.com/search.json?cites=9481041138362977378&engine=google_scholar&hl=en",
+          "cites_id": "9481041138362977378"
+        },
+        "year": "2025"
+      },
+      {
+        "title": "DexDribbler: Learning Dexterous Soccer Manipulation via Dynamic Supervision",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=BlK2gEAAAAAJ&sortby=pubdate&citation_for_view=BlK2gEAAAAAJ:2osOgNQ5qMEC",
+        "citation_id": "BlK2gEAAAAAJ:2osOgNQ5qMEC",
+        "authors": "Y Hu, K Wen, F Yu",
+        "publication": "2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2024",
+        "cited_by": {
+          "value": 4,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3321585708123978642",
+          "serpapi_link": "https://serpapi.com/search.json?cites=3321585708123978642&engine=google_scholar&hl=en",
+          "cites_id": "3321585708123978642"
+        },
+        "year": "2024"
+      },
+      {
+        "title": "Making parameterization and constrains of object landmark globally consistent via spd (3) manifold",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=BlK2gEAAAAAJ&sortby=pubdate&citation_for_view=BlK2gEAAAAAJ:u-x6o8ySG0sC",
+        "citation_id": "BlK2gEAAAAAJ:u-x6o8ySG0sC",
+        "authors": "Y Hu, W Wang",
+        "publication": "IEEE Robotics and Automation Letters 7 (3), 6383-6390 (presented at IROS 2022), 2022",
+        "cited_by": {
+          "value": 6,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2923259441411158638,14646850448516637861",
+          "serpapi_link": "https://serpapi.com/search.json?cites=2923259441411158638%2C14646850448516637861&engine=google_scholar&hl=en",
+          "cites_id": "2923259441411158638,14646850448516637861"
+        },
+        "year": "2022"
+      },
+      {
+        "title": "So-slam: Semantic object slam with scale proportional and symmetrical texture constraints",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=BlK2gEAAAAAJ&sortby=pubdate&citation_for_view=BlK2gEAAAAAJ:d1gkVwhDpl0C",
+        "citation_id": "BlK2gEAAAAAJ:d1gkVwhDpl0C",
+        "authors": "Z Liao, Y Hu, J Zhang, X Qi, X Zhang, W Wang",
+        "publication": "IEEE Robotics and Automation Letters 7 (2), 4008-4015 (presented at ICRA 2022), 2022",
+        "cited_by": {
+          "value": 111,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9239554568524423324",
+          "serpapi_link": "https://serpapi.com/search.json?cites=9239554568524423324&engine=google_scholar&hl=en",
+          "cites_id": "9239554568524423324"
+        },
+        "year": "2022"
+      }
+    ],
+    "cited_by": {
+      "table": [
+        {
+          "citations": {
+            "all": 126,
+            "since_2021": 126
+          }
+        },
+        {
+          "h_index": {
+            "all": 3,
+            "since_2021": 3
+          }
+        },
+        {
+          "i10_index": {
+            "all": 1,
+            "since_2021": 1
+          }
+        }
+      ],
+      "graph": [
+        {
+          "year": 2022,
+          "citations": 8
+        },
+        {
+          "year": 2023,
+          "citations": 24
+        },
+        {
+          "year": 2024,
+          "citations": 40
+        },
+        {
+          "year": 2025,
+          "citations": 48
+        },
+        {
+          "year": 2026,
+          "citations": 5
+        }
+      ]
+    },
+    "public_access": {
+      "link": "https://scholar.google.com/citations?view_op=list_mandates&hl=en&user=BlK2gEAAAAAJ",
+      "available": 2,
+      "not_available": 0
+    },
+    "co_authors": [
+      {
+        "name": "Ziwei Liao",
+        "link": "https://scholar.google.com/citations?user=IhfB2iQAAAAJ&hl=en",
+        "serpapi_link": "https://serpapi.com/search.json?author_id=IhfB2iQAAAAJ&engine=google_scholar_author&hl=en&sort=pubdate",
+        "author_id": "IhfB2iQAAAAJ",
+        "affiliations": "Applied Scientist, Wayve AI",
+        "email": "Verified email at mail.utoronto.ca",
+        "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=IhfB2iQAAAAJ&citpid=10"
+      },
+      {
+        "name": "Renaud Detry",
+        "link": "https://scholar.google.com/citations?user=KQFUVR8AAAAJ&hl=en",
+        "serpapi_link": "https://serpapi.com/search.json?author_id=KQFUVR8AAAAJ&engine=google_scholar_author&hl=en&sort=pubdate",
+        "author_id": "KQFUVR8AAAAJ",
+        "affiliations": "KU Leuven",
+        "email": "Verified email at kuleuven.be",
+        "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=KQFUVR8AAAAJ&citpid=6"
+      },
+      {
+        "name": "Pinhao Song",
+        "link": "https://scholar.google.com/citations?user=pgD4ZGgAAAAJ&hl=en",
+        "serpapi_link": "https://serpapi.com/search.json?author_id=pgD4ZGgAAAAJ&engine=google_scholar_author&hl=en&sort=pubdate",
+        "author_id": "pgD4ZGgAAAAJ",
+        "affiliations": "KU Leuven | Peking University",
+        "email": "Verified email at kuleuven.be",
+        "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=pgD4ZGgAAAAJ&citpid=2"
+      },
+      {
+        "name": "Kehan Wen",
+        "link": "https://scholar.google.com/citations?user=lGFvy1gAAAAJ&hl=en",
+        "serpapi_link": "https://serpapi.com/search.json?author_id=lGFvy1gAAAAJ&engine=google_scholar_author&hl=en&sort=pubdate",
+        "author_id": "lGFvy1gAAAAJ",
+        "affiliations": "ETH Zurich",
+        "email": "Verified email at ethz.ch",
+        "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=lGFvy1gAAAAJ&citpid=7"
+      },
+      {
+        "name": "Luc Van Gool",
+        "link": "https://scholar.google.com/citations?user=TwMib_QAAAAJ&hl=en",
+        "serpapi_link": "https://serpapi.com/search.json?author_id=TwMib_QAAAAJ&engine=google_scholar_author&hl=en&sort=pubdate",
+        "author_id": "TwMib_QAAAAJ",
+        "affiliations": "professor computer vision INSAIT Sofia University, em. KU Leuven, em. ETHZ, Toyota Lab TRACE",
+        "email": "Verified email at insait.ai",
+        "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=TwMib_QAAAAJ&citpid=3"
+      }
+    ]
+  }
+}
