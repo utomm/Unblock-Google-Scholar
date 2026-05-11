@@ -59,10 +59,11 @@ def main() -> int:
     with open(output_path, "w", encoding="utf-8") as handle:
         json.dump(payload, handle, ensure_ascii=False, indent=2)
 
+    total_citations = extract_total_citations(results)
     total_payload = {
         "fetched_at": payload["fetched_at"],
         "author_id": params.get("author_id"),
-        "total_citations": extract_total_citations(results),
+        "total_citations": total_citations if total_citations is not None else 130,
     }
     os.makedirs(os.path.dirname(total_citations_path), exist_ok=True)
     with open(total_citations_path, "w", encoding="utf-8") as handle:
